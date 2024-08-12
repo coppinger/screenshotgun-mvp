@@ -24,11 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={dmSans.className}>
-      <body className="bg-background text-foreground">
-        <main className="flex min-h-screen flex-col items-center">
-          {children}
-        </main>
-      </body>
+      <body className="bg-background text-foreground">{children}</body>
     </html>
   );
 }
